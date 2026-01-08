@@ -39,6 +39,8 @@ It contains a minimal, script-based implementation to compute FuSD quantities an
 1. Put the four files in the same folder and set that folder as your working directory.
 2. Run the analysis script.
 
+This workflow reproduces the empirical results and figures exactly as reported in the reference paper and its Supplementary Material (for the included preprocessed datasets and the default settings in `FuSDAnalysis.R
+
 Example:
 
 ```r
@@ -85,7 +87,7 @@ Running `FuSDAnalysis.R` typically produces:
 - Probability bands
 - Functional skewness plot
 - Spread comparison
-- \(F_{\beta}^{\gamma}\) comparison
+- \(F_{\beta}^{\gamma}\) comparison and components
 - FuSD coverage comparison
 
 > If you want outputs to go into a dedicated folder (e.g., `fig/`), create it and update the `ggsave()` paths inside `FuSDAnalysis.R`.
